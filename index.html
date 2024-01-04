@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>CRONOGRMA EAD 2024/1</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Monoton:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+ <h1 style="font-family: 'Monoton', sans-serif; font-size: 60px">CRONOGRAMA  EAD  2024/1</h1>
+ <b><center><p>UNICEPLAC VIRTUAL</p></center></b>
+<ul>
+    <li class="calendar-item" style="--accent-color: #3B7355">
+        <div class="date">19/01</div>
+        <div class="title"></div>
+        <div class="descr">Ínicio do semestre.</div>
+    </li>
+    <li class="calendar-item" style="--accent-color:#D68749">
+        <div class="date">25/02 a 30/04</div>
+        <div class="title"></div>
+        <div class="descr">Abertura do fórum avaliativo.</div>
+    </li>
+    <li class="calendar-item" style="--accent-color:#3B7355">
+        <div class="date">2012</div>
+        <div class="title"></div>
+        <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima consequuntur soluta placeat iure totam commodi repellendus ea delectus, libero fugit quod reprehenderit, sequi quo, et dolorum saepe nulla hic.</div>
+    </li>
+    <li class="calendar-item" style="--accent-color:#D68749">
+        <div class="date">2017</div>
+        <div class="title"></div>
+        <div class="descr">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, cumque.</div>
+    </li>
+    <li class="calendar-item" style="--accent-color:#3B7355">
+        <div class="date">2022</div>
+        <div class="title"></div>
+        <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
+    </li>
+    <li class="calendar-item" style="--accent-color:#D68749">
+        <div class="date">2022</div>
+        <div class="title"></div>
+        <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
+    </li>
+    <li class="calendar-item" style="--accent-color:#3B7355">
+        <div class="date">2022</div>
+        <div class="title"></div>
+        <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
+    </li>
+    <li class="calendar-item" style="--accent-color:#D68749">
+        <div class="date">2022</div>
+        <div class="title"></div>
+        <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
+    </li>
+</ul>
+
+  
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var calendarItems = document.querySelectorAll('.calendar-item');
+
+        calendarItems.forEach(function (item) {
+            item.addEventListener('click', function () {
+                // Alternar a visibilidade da descrição do calendário
+                var description = this.querySelector('.descr');
+                description.style.display = (description.style.display === 'block') ? 'none' : 'block';
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
